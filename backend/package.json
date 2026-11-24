@@ -1,0 +1,19 @@
+{
+  "name": "minh-xoang-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "minh-xoang-personal-brand": "file:..",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.14.1"
+  }
+}
